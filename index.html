@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Race</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game">
+        <div class="gameName">Typing Speed Test Game</div>
+        <div class="container">
+            <select name="one">
+                <option value="">Select an level</option>
+                <option value="Easy">Easy</option>
+                <option value="Normal">Normal</option>
+                <option value="Hard">Hard</option>
+                <option value="Mex">Mex</option>
+            </select>
+            <div class="massg">
+                You Are Playing on <span class="lvl"></span> Level & You Have <span class="time"></span> Second To Type
+                The Word
+            </div>
+            <button>Starting Playing </button>
+            <div class="word"></div>
+            <input type="text">
+            <div class="allword"></div>
+            <div class="details">
+                <p>Time Left : <span class="secondtimer"></span> Seconds</p>
+                <p> Scor : <span class="curntword">0</span> From <span class="totalword"></span></p>
+            </div>
+            <div class="finsh">
+                <div class="resultText"></div>
+            </div>
+        </div>
+        <div class="readme">
+            <h2>Read Me</h2>
+            In This Game You Have <span class="num"></span> option of levels the First levle Is <span
+                class="firts"></span> this have smal word and
+            the secound is <span class="secound"></span> this have Normal or medume word
+            and the thrid is <span class="third"></span> this have big word and the last is <span class="last"></span>
+            this have all word in evey levels && in the first word you type it you have 2 sec additional .
+        </div>
+    </div>
+    <script src="js/main.js" type="module"></script>
+    <script src="js/selectors.js" type="module"></script>
+</body>
+
+</html>

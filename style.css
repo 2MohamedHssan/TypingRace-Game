@@ -1,0 +1,140 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --mainColor : #2196f3;
+}
+body{
+font-family: sans-serif;
+    background-color: #eee;
+}
+.gameName{
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.container{
+    margin: 20px auto;
+    max-width: 900px;
+}
+select{
+    width: 100%;
+    margin-bottom: 20px;
+    padding:15px;
+    cursor: pointer;
+}
+.massg{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+}
+.massg span{
+    color: #009688;
+}
+.massg span::after{
+    color: #009688;
+    content: ' ] ';
+}
+.massg span::before{
+    content: ' [ ';
+    color: #009688;
+}
+button{
+    background-color: #009688;
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+}
+.word{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    user-select: none;
+    font-weight: bold;
+    color: var(--mainColor);
+}
+input{
+    width: 100%;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 6px;
+    border: solid 1px var(--mainColor);
+    transition: 0.5s;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    caret-color: var(--mainColor);
+}
+input:focus{
+    border: solid 2px var(--mainColor);
+    outline: none;
+}
+.allword{
+    background-color: #fff;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 6px;
+    min-height: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.allword div{
+    background-color: var(--mainColor);
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin: 5px;
+}
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 20px
+}
+.secondtimer,.curntword,.totalword{color: #009688;
+font-weight: bold}
+.finsh{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 54px;
+    font-weight: bold;
+}
+.finsh .bad{
+    color: red;
+}
+.finsh .good{
+    color: var(--mainColor);
+}
+.readme{
+    background-color: #fff;
+    padding : 10px ;
+    border-radius: 8px;
+    width: 900px;
+    line-height: 1.6;
+    margin: 10px auto;
+    color: #788;
+    font-size: 16px;
+}
+.readme span{
+    color: #009688;
+    font-weight: bold;
+}
